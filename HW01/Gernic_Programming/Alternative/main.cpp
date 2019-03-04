@@ -110,7 +110,7 @@ int main(int argc, char const *argv[])
 	title_list.push_back("output");
 
 	cout << T_CAL_SEC() << endl;
-	Print_Time(title_list,time_list);
+	Print_Time(fileName,title_list,time_list);
 
 	return 0;
 }

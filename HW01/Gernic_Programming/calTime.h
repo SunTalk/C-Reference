@@ -49,12 +49,14 @@ float T_CAL_SEC(){
 
 }
 
-void Print_Time( vector<string> &list_title , vector<float> &time_list ){
+void Print_Time(string file_name, vector<string> &list_title , vector<float> &time_list ){
 
 	freopen("TimeList.out","a",stdout);
 
 	string tmp;
 	float total = 0;
+	
+	cout << file_name << endl;
 	for(int i = 0 ; i < time_list.size() ; i++ ){
 		tmp = list_title[i];
 		while( tmp.size() < 10 )
