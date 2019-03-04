@@ -54,12 +54,15 @@ void Print_Time( vector<string> &list_title , vector<float> &time_list ){
 	freopen("TimeList.out","a",stdout);
 
 	string tmp;
+	float total = 0;
 	for(int i = 0 ; i < time_list.size() ; i++ ){
 		tmp = list_title[i];
 		while( tmp.size() < 10 )
 			tmp = tmp + " ";
 		cout << tmp << "    " << time_list[i] << endl ;
+		total = total + time_list[i];
 	}
+	cout << "total         " << total << endl;
 	cout << endl;
 }
 
