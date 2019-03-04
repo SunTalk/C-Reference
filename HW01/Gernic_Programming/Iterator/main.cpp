@@ -70,7 +70,10 @@ void usage(string str){
 }
 
 int  main(int argc, char const *argv[])
-{
+{   
+    vector<float> time_list;
+    vector<string> title_list;
+
     if(argc != 2){
 
         usage(argv[0]);
@@ -84,13 +87,28 @@ int  main(int argc, char const *argv[])
 
     freopen(arr, "r", stdin);
 
+    T_START();
     line_iterator  iter(cin);
     line_iterator  end_of_file;
+    T_END();
+    time_list.push_back(T_CAL_SEC());
+    title_list.push_back("input");
 
     vector<string>  V(iter, end_of_file);
 
+    T_START();
     sort( V.begin(), V.end() ); // sort( V.begin(), V.end(), greater<string>() );
-    copy( V.begin(), V.end(), ostream_iterator<string>(cout, "\n"));
+    T_END();
+    time_list.push_back(T_CAL_SEC());
+    title_list.push_back("output");
 
+    T_START();
+    copy( V.begin(), V.end(), ostream_iterator<string>(cout, "\n"));
+    T_END();
+    time_list.push_back(T_CAL_SEC());
+    title_list.push_back("output");
+
+    Print_Time(title_list,time_list);
+    
     return 0;
 }
