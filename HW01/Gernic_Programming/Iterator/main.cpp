@@ -102,7 +102,7 @@ int  main(int argc, char const *argv[])
     sort( V.begin(), V.end() ); // sort( V.begin(), V.end(), greater<string>() );
     T_END();
     time_list.push_back(T_CAL_SEC());
-    title_list.push_back("output");
+    title_list.push_back("sort");
 
     T_START();
     copy( V.begin(), V.end(), ostream_iterator<string>(cout, "\n"));
