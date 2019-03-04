@@ -11,6 +11,8 @@
 
 using namespace std;
 
+#define TIME_TEST
+
 #include<rand.h>
 #include<calTime.h>
 
@@ -84,13 +86,27 @@ int  main(int argc, char const *argv[])
 
     freopen(arr, "r", stdin);
 
+    T_START();
     line_iterator  iter(cin);
     line_iterator  end_of_file;
+    T_END();
+
+    T_OUT();
 
     vector<string>  V(iter, end_of_file);
 
+    T_START();
     sort( V.begin(), V.end() ); // sort( V.begin(), V.end(), greater<string>() );
+    T_END();
+
+    T_OUT();
+
+    T_START();
     copy( V.begin(), V.end(), ostream_iterator<string>(cout, "\n"));
+    T_END();
+
+    T_OUT();
+    PUTCHAR();
 
     return 0;
 }

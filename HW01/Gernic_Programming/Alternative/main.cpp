@@ -11,6 +11,8 @@
 
 using namespace std;
 
+#define TIME_TEST
+
 #include<rand.h>
 #include<calTime.h>
 
@@ -66,7 +68,7 @@ int main(int argc, char const *argv[])
     }
     T_END();
 
-    cout << T_CAL_SEC() << endl;
+    T_OUT();
 
     // Parse the string table into lines.
     typedef  vector<char>::iterator  strtab_iterator;
@@ -86,14 +88,15 @@ int main(int argc, char const *argv[])
     sort( lines.begin(), lines.end(), strtab_cmp() );
     T_END();
 
-    cout << T_CAL_SEC() << endl;
+    T_OUT();
 
     // Write the lines to standard output
     T_START();
     for_each( lines.begin(), lines.end(), strtab_print(cout) );
     T_END();
 
-    cout << T_CAL_SEC() << endl;
+    T_OUT();
+    PUTCHAR();
 
     return 0;
 }

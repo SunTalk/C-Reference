@@ -10,6 +10,8 @@
 
 using namespace std;
 
+#define TIME_TEST
+
 #include<rand.h>
 #include<calTime.h>
 
@@ -31,7 +33,6 @@ int main(int argc, char const *argv[]){
     char arr[length+1];
     strcpy(arr, fileName.c_str());
 
-
     freopen(arr, "r", stdin);
 
     vector<string> v;
@@ -42,19 +43,20 @@ int main(int argc, char const *argv[]){
         v.push_back(tmp);
     T_END();
 
-    cout << T_CAL_SEC() << endl;
+    T_OUT();
 
     T_START();
     sort(v.begin(), v.end());
     T_END();
 
-    cout << T_CAL_SEC() << endl;
+    T_OUT();
 
     T_START();
     copy(v.begin(), v.end(), ostream_iterator<string>(cout, "\n") );
     T_END();
 
-    cout << T_CAL_SEC() << endl;
+    T_OUT();
+    PUTCHAR();
 
     return 0;
 }
