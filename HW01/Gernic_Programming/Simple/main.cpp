@@ -10,6 +10,8 @@
 
 using namespace std;
 
+#define TIME_TEST
+
 #include<rand.h>
 #include<calTime.h>
 
@@ -46,23 +48,17 @@ int main(int argc, char const *argv[]){
 	time_list.push_back(T_CAL_SEC());
 	title_list.push_back("input");
 
-	cout << T_CAL_SEC() << endl;
-
 	T_START();
 	sort(v.begin(), v.end());
 	T_END();
 	time_list.push_back(T_CAL_SEC());
 	title_list.push_back("sort");
 
-	cout << T_CAL_SEC() << endl;
-
 	T_START();
 	copy(v.begin(), v.end(), ostream_iterator<string>(cout, "\n") );
 	T_END();
 	time_list.push_back(T_CAL_SEC());
 	title_list.push_back("output");
-
-	cout << T_CAL_SEC() << endl;
 
 	Print_Time(title_list,time_list);
 

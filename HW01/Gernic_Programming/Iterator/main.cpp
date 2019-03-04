@@ -11,6 +11,8 @@
 
 using namespace std;
 
+#define TIME_TEST
+
 #include<rand.h>
 #include<calTime.h>
 

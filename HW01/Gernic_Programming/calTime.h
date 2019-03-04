@@ -8,6 +8,24 @@
 #include<fstream>
 #include<iomanip>
 
+#ifdef TIME_TEST
+	
+	#define T_OUT() \
+	do { \
+		\
+		std::ofstream out("result.txt", ios_base::out|ios_base::app);\
+		out << std::fixed << std::setprecision(5) << T_CAL_SEC() << endl;\
+	}while(0)
+
+	#define PUTCHAR() \
+	do{\
+		\
+		std::ofstream out("result.txt", ios_base::out|ios_base::app); \
+		out << endl; \
+	}while(0)
+
+#endif
+
 static clock_t startTime; 
 
 void T_START(){
@@ -20,7 +38,6 @@ void T_END(){
 	startTime = clock() - startTime;
 }
 
-
 int T_GET_START_TIME(){
 
 	return startTime;
@@ -29,6 +46,7 @@ int T_GET_START_TIME(){
 float T_CAL_SEC(){
 
 	return (float)startTime / CLOCKS_PER_SEC;
+
 }
 
 void Print_Time( vector<string> &list_title , vector<float> &time_list ){
@@ -44,3 +62,4 @@ void Print_Time( vector<string> &list_title , vector<float> &time_list ){
 	}
 	cout << endl;
 }
+
