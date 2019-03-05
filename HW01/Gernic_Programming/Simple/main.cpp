@@ -21,7 +21,7 @@ void usage(string str){
 }
 
 int main(int argc, char const *argv[]){
-
+	freopen("output.out","w",stdout);
 	vector<float> time_list;
 	vector<string> title_list;
 
