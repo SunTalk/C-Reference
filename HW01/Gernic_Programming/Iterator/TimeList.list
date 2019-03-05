@@ -1,108 +1,19 @@
-randString_1000_100.txt
-input         0.001
-sort          0.002
-output        0.509
-total         0.512
-
-randString_1000_500.txt
-input         0
-sort          0.001
-output        0.886
-total         0.887
-
-randString_1000_1000.txt
-input         0.001
-sort          0.001
-output        0.428
-total         0.43
-
-randString_5000_100.txt
-input         0
-sort          0.006
-output        0.657
-total         0.663
-
-randString_5000_500.txt
-input         0
-sort          0.007
-output        0.863
-total         0.87
-
-randString_5000_1000.txt
-input         0
-sort          0.007
-output        0.976
-total         0.983
-
-randString_10000_100.txt
-input         0
-sort          0.014
-output        1.412
-total         1.426
-
-randString_10000_500.txt
-input         0
-sort          0.014
-output        1.686
-total         1.7
-
-randString_10000_1000.txt
-input         0
-sort          0.014
-output        1.937
-total         1.951
-
-randString_50000_100.txt
-input         0
-sort          0.08
-output        5.899
-total         5.979
-
-randString_50000_500.txt
-input         0
-sort          0.092
-output        8.154
-total         8.246
-
-randString_50000_1000.txt
-input         0
-sort          0.095
-output        9.524
-total         9.619
-
-randString_100000_100.txt
-input         0
-sort          0.192
-output        13.603
-total         13.795
-
-randString_100000_500.txt
-input         0
-sort          0.202
-output        20.065
-total         20.267
-
-randString_100000_1000.txt
-input         0
-sort          0.193
-output        23.335
-total         23.528
-
-randString_500000_100.txt
-input         0
-sort          1.131
-output        64.544
-total         65.675
-
-randString_500000_500.txt
-input         0
-sort          1.107
-output        63.561
-total         64.668
-
-randString_500000_1000.txt
-input         0
-sort          1.234
-output        73.406
-total         74.64
+ randString_1000_100.txt Simple_input         0.001 randString_1000_100.txt Simple_sort          0.002 randString_1000_100.txt Simple_output        0.509 randString_1000_100.txt Simple_total         0.512
+ randString_1000_500.txt Simple_input         0 randString_1000_500.txt Simple_sort          0.001 randString_1000_500.txt Simple_output        0.886 randString_1000_500.txt Simple_total         0.887
+ randString_1000_1000.txt Simple_input         0.001 randString_1000_1000.txt Simple_sort          0.001 randString_1000_1000.txt Simple_output        0.428 randString_1000_1000.txt Simple_total         0.43
+ randString_5000_100.txt Simple_input         0 randString_5000_100.txt Simple_sort          0.006 randString_5000_100.txt Simple_output        0.657 randString_5000_100.txt Simple_total         0.663
+ randString_5000_500.txt Simple_input         0 randString_5000_500.txt Simple_sort          0.007 randString_5000_500.txt Simple_output        0.863 randString_5000_500.txt Simple_total         0.87
+ randString_5000_1000.txt Simple_input         0 randString_5000_1000.txt Simple_sort          0.007 randString_5000_1000.txt Simple_output        0.976 randString_5000_1000.txt Simple_total         0.983
+ randString_10000_100.txt Simple_input         0 randString_10000_100.txt Simple_sort          0.014 randString_10000_100.txt Simple_output        1.412 randString_10000_100.txt Simple_total         1.426
+ randString_10000_500.txt Simple_input         0 randString_10000_500.txt Simple_sort          0.014 randString_10000_500.txt Simple_output        1.686 randString_10000_500.txt Simple_total         1.7
+ randString_10000_1000.txt Simple_input         0 randString_10000_1000.txt Simple_sort          0.014 randString_10000_1000.txt Simple_output        1.937 randString_10000_1000.txt Simple_total         1.951
+ randString_50000_100.txt Simple_input         0 randString_50000_100.txt Simple_sort          0.08 randString_50000_100.txt Simple_output        5.899 randString_50000_100.txt Simple_total         5.979
+ randString_50000_500.txt Simple_input         0 randString_50000_500.txt Simple_sort          0.092 randString_50000_500.txt Simple_output        8.154 randString_50000_500.txt Simple_total         8.246
+ randString_50000_1000.txt Simple_input         0 randString_50000_1000.txt Simple_sort          0.095 randString_50000_1000.txt Simple_output        9.524 randString_50000_1000.txt Simple_total         9.619
+ randString_100000_100.txt Simple_input         0 randString_100000_100.txt Simple_sort          0.192 randString_100000_100.txt Simple_output        13.603 randString_100000_100.txt Simple_total         13.795
+ randString_100000_500.txt Simple_input         0 randString_100000_500.txt Simple_sort          0.202 randString_100000_500.txt Simple_output        20.065 randString_100000_500.txt Simple_total         20.267
+ randString_100000_1000.txt Simple_input         0 randString_100000_1000.txt Simple_sort          0.193 randString_100000_1000.txt Simple_output        23.335 randString_100000_1000.txt Simple_total         23.528
+ randString_500000_100.txt Simple_input         0 randString_500000_100.txt Simple_sort          1.131 randString_500000_100.txt Simple_output        64.544 randString_500000_100.txt Simple_total         65.675
+ randString_500000_500.txt Simple_input         0 randString_500000_500.txt Simple_sort          1.107 randString_500000_500.txt Simple_output        63.561 randString_500000_500.txt Simple_total         64.668
+ randString_500000_1000.txt Simple_input         0 randString_500000_1000.txt Simple_sort          1.234 randString_500000_1000.txt Simple_output        73.406 randString_500000_1000.txt Simple_total         74.64
 

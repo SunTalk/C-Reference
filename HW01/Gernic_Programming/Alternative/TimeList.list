@@ -1,126 +1,56 @@
 randString_1000_100.txt
-CharTable     0.011
+CharTable     0.01
 input         0.001
 sort          0.001
-output        4.859
-total         4.872
+output        4.145
+total         4.157
 
 randString_1000_500.txt
-CharTable     0.052
-input         0.004
-sort          0.001
-output        19.244
-total         19.301
+CharTable     0.047
+input         0.002
+sort          0
+output        27.512
+total         27.561
 
 randString_1000_1000.txt
-CharTable     0.105
-input         0.008
-sort          0.001
-output        42.45
-total         42.564
+CharTable     0.174
+input         0.014
+sort          0
+output        51.951
+total         52.139
 
 randString_5000_100.txt
-CharTable     0.053
-input         0.005
-sort          0.006
-output        16.956
-total         17.02
+CharTable     0.047
+input         0.003
+sort          0.004
+output        27.639
+total         27.693
 
 randString_5000_500.txt
-CharTable     0.264
-input         0.02
-sort          0.005
-output        84.642
-total         84.931
+CharTable     0.446
+input         0.033
+sort          0.009
+output        115.657
+total         116.145
 
 randString_5000_1000.txt
-CharTable     0.523
-input         0.037
-sort          0.007
-output        202.091
-total         202.658
+CharTable     0.421
+input         0.032
+sort          0.005
+output        254.626
+total         255.084
 
 randString_10000_100.txt
-CharTable     0.114
-input         0.009
-sort          0.013
-output        42.486
-total         42.622
+CharTable     0.086
+input         0.006
+sort          0.009
+output        48.866
+total         48.967
 
 randString_10000_500.txt
-CharTable     0.582
-input         0.046
-sort          0.013
-output        212.925
-total         213.566
-
-randString_10000_1000.txt
-CharTable     1.217
-input         0.089
-sort          0.016
-output        395.524
-total         396.846
-
-randString_50000_100.txt
-CharTable     0.568
-input         0.049
-sort          0.102
-output        188.338
-total         189.057
-
-randString_50000_500.txt
-CharTable     2.754
-input         0.2
-sort          0.091
-output        1064.24
-total         1067.29
-
-randString_50000_1000.txt
-CharTable     5.353
-input         0.385
-sort          0.093
-output        2122.14
-total         2127.97
-
-randString_100000_100.txt
-CharTable     1.481
-input         0.12
-sort          0.264
-output        426.527
-total         428.392
-
-randString_100000_500.txt
-CharTable     5.951
-input         0.435
-sort          0.255
-output        2132.61
-total         2139.25
-
-randString_100000_1000.txt
-CharTable     11.704
-input         0.819
-sort          0.253
-output        4219.07
-total         4231.85
-
-randString_500000_100.txt
-CharTable     5.361
-input         0.433
-sort          1.191
-output        1825.17
-total         1832.16
-
-randString_500000_500.txt
-CharTable     25.99
-input         1.901
-sort          1.149
-output        8649.71
-total         8678.75
-
-randString_500000_1000.txt
-CharTable     49.793
-input         3.585
-sort          1.142
-output        16836.1
-total         16890.6
+CharTable     0.884
+input         0.064
+sort          0.027
+output        255.518
+total         256.493
 
