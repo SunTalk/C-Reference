@@ -44,7 +44,9 @@ void usage(string str){
 }
 
 int main(int argc, char const *argv[])
-{
+{	
+
+	freopen("output.out","w",stdout);
 	
 	vector<float> time_list;
 	vector<string> title_list;
@@ -71,7 +73,7 @@ int main(int argc, char const *argv[])
 	}
 	T_END();
 	time_list.push_back(T_CAL_SEC());
-	title_list.push_back("CharTable");
+	title_list.push_back("input");
 
 	cout << T_CAL_SEC() << endl;
 
@@ -91,7 +93,7 @@ int main(int argc, char const *argv[])
 	}
 	T_END();
 	time_list.push_back(T_CAL_SEC());
-	title_list.push_back("input");
+	title_list.push_back("CharTable");
 
 	T_START();
 	// Sort the vector of lines

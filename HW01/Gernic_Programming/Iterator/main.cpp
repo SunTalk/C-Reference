@@ -72,7 +72,10 @@ void usage(string str){
 }
 
 int  main(int argc, char const *argv[])
-{   
+{  
+
+    freopen("output.out","w",stdout);
+
     vector<float> time_list;
     vector<string> title_list;
 
@@ -92,11 +95,11 @@ int  main(int argc, char const *argv[])
     T_START();
     line_iterator  iter(cin);
     line_iterator  end_of_file;
+    vector<string>  V(iter, end_of_file);
     T_END();
     time_list.push_back(T_CAL_SEC());
     title_list.push_back("input");
 
-    vector<string>  V(iter, end_of_file);
 
     T_START();
     sort( V.begin(), V.end() ); // sort( V.begin(), V.end(), greater<string>() );
