@@ -1,0 +1,126 @@
+randString_1000_100.txt
+CharTable     0.012
+input         0.001
+sort          0.001
+output        0.01
+total         0.024
+
+randString_1000_500.txt
+CharTable     0.064
+input         0.004
+sort          0.001
+output        0.048
+total         0.117
+
+randString_1000_1000.txt
+CharTable     0.12
+input         0.007
+sort          0.001
+output        0.091
+total         0.219
+
+randString_5000_100.txt
+CharTable     0.059
+input         0.004
+sort          0.005
+output        0.047
+total         0.115
+
+randString_5000_500.txt
+CharTable     0.294
+input         0.019
+sort          0.005
+output        0.231
+total         0.549
+
+randString_5000_1000.txt
+CharTable     0.605
+input         0.038
+sort          0.007
+output        0.476
+total         1.126
+
+randString_10000_100.txt
+CharTable     0.123
+input         0.009
+sort          0.01
+output        0.093
+total         0.235
+
+randString_10000_500.txt
+CharTable     0.609
+input         0.039
+sort          0.012
+output        0.471
+total         1.131
+
+randString_10000_1000.txt
+CharTable     1.19
+input         0.078
+sort          0.013
+output        0.931
+total         2.212
+
+randString_50000_100.txt
+CharTable     0.622
+input         0.042
+sort          0.068
+output        0.491
+total         1.223
+
+randString_50000_500.txt
+CharTable     2.984
+input         0.185
+sort          0.075
+output        2.286
+total         5.53
+
+randString_50000_1000.txt
+CharTable     5.905
+input         0.369
+sort          0.083
+output        4.554
+total         10.911
+
+randString_100000_100.txt
+CharTable     1.196
+input         0.088
+sort          0.157
+output        0.942
+total         2.383
+
+randString_100000_500.txt
+CharTable     5.892
+input         0.368
+sort          0.19
+output        4.899
+total         11.349
+
+randString_100000_1000.txt
+CharTable     11.709
+input         0.716
+sort          0.183
+output        9.314
+total         21.922
+
+randString_500000_100.txt
+CharTable     5.93
+input         0.424
+sort          1.011
+output        4.73
+total         12.095
+
+randString_500000_500.txt
+CharTable     29.447
+input         1.854
+sort          1.109
+output        23.376
+total         55.786
+
+randString_500000_1000.txt
+CharTable     59.987
+input         3.66
+sort          1.116
+output        45.535
+total         110.298
+

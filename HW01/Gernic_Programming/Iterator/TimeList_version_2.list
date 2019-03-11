@@ -1,0 +1,108 @@
+randString_1000_100.txt
+input         0
+sort          0.001
+output        0.001
+total         0.002
+
+randString_1000_500.txt
+input         0
+sort          0.001
+output        0.002
+total         0.003
+
+randString_1000_1000.txt
+input         0
+sort          0.001
+output        0.003
+total         0.004
+
+randString_5000_100.txt
+input         0
+sort          0.008
+output        0.003
+total         0.011
+
+randString_5000_500.txt
+input         0
+sort          0.006
+output        0.01
+total         0.016
+
+randString_5000_1000.txt
+input         0
+sort          0.007
+output        0.019
+total         0.026
+
+randString_10000_100.txt
+input         0
+sort          0.013
+output        0.005
+total         0.018
+
+randString_10000_500.txt
+input         0
+sort          0.014
+output        0.019
+total         0.033
+
+randString_10000_1000.txt
+input         0
+sort          0.013
+output        0.036
+total         0.049
+
+randString_50000_100.txt
+input         0
+sort          0.087
+output        0.033
+total         0.12
+
+randString_50000_500.txt
+input         0
+sort          0.093
+output        0.103
+total         0.196
+
+randString_50000_1000.txt
+input         0
+sort          0.093
+output        0.178
+total         0.271
+
+randString_100000_100.txt
+input         0
+sort          0.183
+output        0.063
+total         0.246
+
+randString_100000_500.txt
+input         0
+sort          0.221
+output        0.195
+total         0.416
+
+randString_100000_1000.txt
+input         0
+sort          0.186
+output        0.345
+total         0.531
+
+randString_500000_100.txt
+input         0
+sort          1.102
+output        0.34
+total         1.442
+
+randString_500000_500.txt
+input         0
+sort          1.133
+output        0.992
+total         2.125
+
+randString_500000_1000.txt
+input         0
+sort          1.211
+output        1.821
+total         3.032
+
