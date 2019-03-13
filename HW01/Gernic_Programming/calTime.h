@@ -51,7 +51,7 @@ float T_CAL_SEC(){
 
 void Print_Time(string file_name, vector<string> &list_title , vector<float> &time_list ){
 
-	freopen("TimeList_version_2.list","a",stdout);
+	freopen("TimeList_ver3.list","a",stdout);
 
 	string tmp;
 	float total = 0;
