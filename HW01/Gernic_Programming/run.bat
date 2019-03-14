@@ -1,7 +1,5 @@
 @echo off
 
-cls
-
 pushd %1 
 
 g++ -std=c++11 -I.. gen_string.cpp -o gen_string.exe
