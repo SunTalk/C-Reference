@@ -1,0 +1,108 @@
+1000 X 100
+input         0.015430
+sort          0.000480
+output        0.000340
+total         0.016250
+
+1000 X 500
+input         0.069810
+sort          0.000490
+output        0.002540
+total         0.072840
+
+1000 X 1000
+input         0.129170
+sort          0.000490
+output        0.006690
+total         0.136350
+
+5000 X 100
+input         0.068130
+sort          0.001590
+output        0.005390
+total         0.075110
+
+5000 X 500
+input         0.337700
+sort          0.001900
+output        0.016260
+total         0.355860
+
+5000 X 1000
+input         0.655800
+sort          0.003150
+output        0.030020
+total         0.688970
+
+10000 X 100
+input         0.135610
+sort          0.005760
+output        0.007360
+total         0.148730
+
+10000 X 500
+input         0.681920
+sort          0.006280
+output        0.032810
+total         0.721010
+
+10000 X 1000
+input         1.307590
+sort          0.005500
+output        0.065810
+total         1.378900
+
+50000 X 100
+input         0.706520
+sort          0.042510
+output        0.042020
+total         0.791050
+
+50000 X 500
+input         3.298519
+sort          0.046220
+output        0.179670
+total         3.524409
+
+50000 X 1000
+input         6.497601
+sort          0.045970
+output        0.374630
+total         6.918201
+
+100000 X 100
+input         1.357229
+sort          0.095060
+output        0.082480
+total         1.534770
+
+100000 X 500
+input         6.780101
+sort          0.100310
+output        0.399590
+total         7.280002
+
+100000 X 1000
+input         12.872961
+sort          0.101510
+output        0.750800
+total         13.725270
+
+500000 X 100
+input         6.721841
+sort          0.585210
+output        0.496840
+total         7.803891
+
+500000 X 500
+input         32.329939
+sort          0.642950
+output        1.835920
+total         34.808809
+
+500000 X 1000
+input         62.982183
+sort          0.581300
+output        3.177010
+total         66.740493
+

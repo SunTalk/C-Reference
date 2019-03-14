@@ -1,0 +1,126 @@
+1000 X 100
+input         0.010000
+CharTable     0.000480
+sort          0.001270
+output        0.007520
+total         0.019270
+
+1000 X 500
+input         0.050810
+CharTable     0.003750
+sort          0.000820
+output        0.033990
+total         0.089370
+
+1000 X 1000
+input         0.100740
+CharTable     0.008210
+sort          0.001530
+output        0.071380
+total         0.181860
+
+5000 X 100
+input         0.051280
+CharTable     0.003840
+sort          0.005420
+output        0.036860
+total         0.097400
+
+5000 X 500
+input         0.262150
+CharTable     0.019980
+sort          0.006870
+output        0.179320
+total         0.468320
+
+5000 X 1000
+input         0.519310
+CharTable     0.036880
+sort          0.006690
+output        0.355930
+total         0.918809
+
+10000 X 100
+input         0.106060
+CharTable     0.009810
+sort          0.011150
+output        0.073960
+total         0.200980
+
+10000 X 500
+input         0.520010
+CharTable     0.040870
+sort          0.014010
+output        0.376150
+total         0.951040
+
+10000 X 1000
+input         1.050319
+CharTable     0.076020
+sort          0.015210
+output        0.726300
+total         1.867850
+
+50000 X 100
+input         0.527010
+CharTable     0.044230
+sort          0.082180
+output        0.362980
+total         1.016400
+
+50000 X 500
+input         2.618030
+CharTable     0.196630
+sort          0.094210
+output        1.815010
+total         4.723880
+
+50000 X 1000
+input         5.146260
+CharTable     0.375300
+sort          0.092350
+output        3.576541
+total         9.190450
+
+100000 X 100
+input         1.076850
+CharTable     0.090370
+sort          0.204280
+output        0.746580
+total         2.118080
+
+100000 X 500
+input         5.165331
+CharTable     0.381270
+sort          0.201700
+output        3.604450
+total         9.352748
+
+100000 X 1000
+input         10.326980
+CharTable     0.754070
+sort          0.210160
+output        7.145571
+total         18.436779
+
+500000 X 100
+input         5.232211
+CharTable     0.430590
+sort          1.154151
+output        3.734550
+total         10.551500
+
+500000 X 500
+input         25.951074
+CharTable     1.900790
+sort          1.228360
+output        17.475476
+total         46.555713
+
+500000 X 1000
+input         50.159150
+CharTable     3.584960
+sort          1.129431
+output        33.573572
+total         88.447080
+
