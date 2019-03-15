@@ -5,7 +5,8 @@ int main(int argc, char const *argv[])
 {
 	
 	freopen("Alternative_list.list","r",stdin);
-	freopen("Alternative.data","w",stdout);
+	// freopen("Alternative.data","w",stdout);
+	freopen("Alternative_total.txt","w",stdout);
 
 	string target;
 	string tmp;
@@ -26,10 +27,13 @@ int main(int argc, char const *argv[])
 			table[count][3] += num;
 			cin >> tmp >> num;
 			table[count][4] += num;
+			printf("%f\n",num );
 			count++;
 
-			if(count == 19)
+			if(count == 19){
 				count=1;
+				printf("\n");
+			}
 		}
 	}
 
@@ -37,23 +41,22 @@ int main(int argc, char const *argv[])
 	int two[3] = {100,500,1000};
 
 	count = 1;
-	for(int i = 0 ; i < 6 ; i++ ){
-		for(int j = 0 ; j < 3 ; j++ ){
-			printf("%d X %d\n",one[i],two[j] );
-			printf("input         %f\n",table[count][0]/100 );
-			printf("CharTable     %f\n",table[count][1]/100 );
-			printf("sort          %f\n",table[count][2]/100 );
-			printf("output        %f\n",table[count][3]/100 );
-			printf("total         %f\n",table[count][4]/100 );
-			// printf("input         %f\n",table[count][0]/100 );
-			// printf("sort          %f\n",table[count][1]/100 );
-			// printf("output        %f\n",table[count][2]/100 );
-			// printf("total         %f\n",table[count][3]/100 );
-			printf("\n");
-			count++;
-		}
-	}
-
+	// for(int i = 0 ; i < 6 ; i++ ){
+	// 	for(int j = 0 ; j < 3 ; j++ ){
+	// 		printf("%d X %d\n",one[i],two[j] );
+	// 		printf("input         %f\n",table[count][0]/100 );
+	// 		printf("CharTable     %f\n",table[count][1]/100 );
+	// 		printf("sort          %f\n",table[count][2]/100 );
+	// 		printf("output        %f\n",table[count][3]/100 );
+	// 		printf("total         %f\n",table[count][4]/100 );
+	// 		// printf("input         %f\n",table[count][0]/100 );
+	// 		// printf("sort          %f\n",table[count][1]/100 );
+	// 		// printf("output        %f\n",table[count][2]/100 );
+	// 		// printf("total         %f\n",table[count][3]/100 );
+	// 		printf("\n");
+	// 		count++;
+	// 	}
+	// }
 
 	return 0;
 }
