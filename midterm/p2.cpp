@@ -3,45 +3,34 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-	
-	freopen("g2.data","r",stdin);
-	freopen("p2.out","w",stdout);
-
 	int page,num;
-	scanf("%d %d",&page,&num);
+	scanf("%d %d\n",&page,&num);
 	string str;
 	cin >> str;
 	int table[10];
-	memset(table,0,sizeof(table));
-	for(int i = 0 ; i < str.size() ; i++ )
-		table[str[i]-'0']++;
+	for(int i = 0 ; i < 10 ; i++ )
+		table[i] = count(str.begin(), str.end(),i+'0');
 
-	int wh_page,wh_num,pa;
-	int ans;
+	int ans,wh_page,wh_num,pa;
 	string check = "";
 	while( ~scanf("%d %d %d",&wh_page,&wh_num,&pa) ){
-		wh_page--;
-		wh_num--;
-		check = check + str[wh_page*num+wh_num];
-		ans = str[wh_page*num+wh_num] - '0';
+		check = check + str[(wh_page-1)*num+(wh_num-1)];
+		ans = str[(wh_page-1)*num+(wh_num-1)] - '0';
 		printf("%d %d %d\n",ans ,table[ans] ,table[ans]%pa );
 	}
+	cout << check ;
 
 	ans = 0;
-	cout << check ;
-	string tmp;
 	string remember = check;
-	next_permutation(check.begin(), check.end());
-	
-	while( check != remember ){
-		for(int i = 0 ; i <= str.size()-check.size() ; i++ ){
-			tmp = str.substr(i,check.size());
-			if( tmp == check )
-				ans++;
+	do{
+		int tmp = str.find(check,0);
+		while( tmp != -1 ){
+			ans++;
+			tmp = str.find(check,tmp+1);
 		}
 		next_permutation(check.begin(), check.end());
-	}	
 
+	}while( check != remember );
 	printf(" %d\n",ans );
 
 	return 0;

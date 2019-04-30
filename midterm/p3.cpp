@@ -57,9 +57,11 @@ public:
 int main(int argc, char const *argv[])
 {
 	
+	#ifdef
 	freopen("p3.in","r",stdin);
 	freopen("p3.out","w",stdout);
-
+	#endif
+	
 	int num;
 	scanf("%d",&num);
 

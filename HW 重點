@@ -1,0 +1,5 @@
+容器複雜度(list,string,vector 太簡單)(set map 分數高)
+程式中要用到iterator(必須)
+要用到stl提供的演算法(find太簡單)
+function object 
+寒士物件 for_each
