@@ -6,8 +6,7 @@ int main(int argc, char const *argv[])
 	
 	freopen("HW03.in","w",stdout);
 	srand( time(NULL) );
-	string name[] = {"SunTalk","ICEJJ","Roy","HalloWorld","Chess","Bobo","CashLu","Wei","Ina","Amy","Theo","PYC","Dalun"};
-	//13
+	string name[] = {"SunTalk","ICEJJ","Roy","HalloWorld","Chess","Bobo","CashLu","Wei","Ina","Amy","Theo","PYC","Dalun","Kiyohime", "real_yami","Joseph","TsozenYeh","Andy","Carole","Allen","Faker", "khan", "Westdoor", "bebe", "Toyz", "GodJJ", "TheShy", "Teddy"};
 
 	string N = argv[1]; 
 	int num = 0;
@@ -18,8 +17,9 @@ int main(int argc, char const *argv[])
 	int tmp;
 	string block;
 	char add;
+	
 	for(int i = 0 ; i < num ; i++ ){
-		cout << name[rand()%13] << " ";
+		cout << name[rand()%(sizeof(name)/sizeof(name[0]))] << " ";
 		tmp = rand()%100 + 30;
 		block = "";
 		for(int j = 0 ; j < tmp ; j++ ){
