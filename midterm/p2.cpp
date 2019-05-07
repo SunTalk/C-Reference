@@ -16,15 +16,10 @@ int main(int argc, char const *argv[])
 	}
 	cout << check ;
 	ans = 0;
-	string remember = check;
-	do{
-		int tmp = str.find(check,0);
-		while( tmp != string::npos ){
+	for(int i = 0 ; i < str.size() ; i++ )
+		if( is_permutation(check.begin(), check.end(), &str[i] ) )
 			ans++;
-			tmp = str.find(check,tmp+1);
-		}
-		next_permutation(check.begin(), check.end());
-	}while( check != remember );
 	printf(" %d\n",ans );
+	
 	return 0;
 }
