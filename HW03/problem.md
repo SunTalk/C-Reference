@@ -46,3 +46,10 @@ SunTalk N
 ```
 ### generate N
 * 可產生一開始數字為N的測資(Input)
+
+### cp N
+* 可直接編譯並執行
+	* 會先generate N
+	* 之後直接編譯並執行HW03
+	* generate 生成的檔案為`HW03.in`
+	* HW03執行完後的結果為`HW03.out`
