@@ -11,7 +11,7 @@ int main(int argc, char const *argv[])
 
 	string str;
 
-	regex NUM("( [+-]?((0[0-7]+)|([1-9][0-9]*)|(0[xX][0-9a-fA-F]+))[lLuUiI]?)");
+	regex NUM("([+-]?((0[0-7]+)|([1-9][0-9]*)|(0[xX][0-9a-fA-F]+))[lLuUiI]?\\b)");
 	smatch find_num;
 	vector <string> ans;
 	vector <int> ANS;
@@ -31,7 +31,7 @@ int main(int argc, char const *argv[])
 		for(int k = 0 ; k < ans.size() ; k++ ){
 			transform(ans[k].begin(), ans[k].end(),ans[k].begin(),::toupper);
 			
-			int i = 1,j = 0;
+			int i = 0,j = 0;
 			int sign = 1;
 			int num = 0;
 			if( ans[k][i] == '-' )
